@@ -1,0 +1,11 @@
+{
+  "admin": {
+    "metrics": {
+      "enabled": false
+    },
+    "certUrls": [],
+    "fileUrls": true,
+    "mixedContent": true,
+    "proxy": "__delete__"
+  }
+}

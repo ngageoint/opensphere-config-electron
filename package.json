@@ -1,0 +1,15 @@
+{
+  "name": "opensphere-config-electron",
+  "version": "1.0.0",
+  "description": "OpenSphere configuration for Electron builds.",
+  "build": {
+    "type": "config",
+    "config": "settings.json",
+    "priority": 100000
+  },
+  "keywords": [
+    "OpenSphere",
+    "Electron"
+  ],
+  "license": "Apache-2.0"
+}
