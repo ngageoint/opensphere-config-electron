@@ -7,6 +7,7 @@
     "config": "settings.json",
     "priority": 100000
   },
+  "repository": "https://github.com/ngageoint/opensphere-config-electron",
   "keywords": [
     "OpenSphere",
     "Electron"
