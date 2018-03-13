@@ -6,6 +6,23 @@
     "certUrls": [],
     "fileUrls": true,
     "mixedContent": true,
-    "proxy": "__delete__"
+    "proxy": "__delete__",
+    "providers": {
+      "basemap": {
+        "maps": {
+          "streetmap": {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+          },
+          "worldimagery": {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+          },
+          "terrain": {
+            "options": {
+              "url": "https://assets.agi.com/stk-terrain/world"
+            }
+          }
+        }
+      }
+    }
   }
 }
