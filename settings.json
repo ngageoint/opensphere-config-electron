@@ -15,11 +15,6 @@
           },
           "worldimagery": {
             "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          },
-          "terrain": {
-            "options": {
-              "url": "https://assets.agi.com/stk-terrain/world"
-            }
           }
         }
       }
