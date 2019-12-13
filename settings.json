@@ -23,7 +23,26 @@
             "url": "https://wi.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
           }
         }
+      },
+      "country-borders": {
+        "type": "config",
+        "label": "Country Borders",
+        "description": "Country Borders (packaged)",
+        "layers": {
+          "country-borders": {
+            "id": "features",
+            "animate": false,
+            "load": true,
+            "type": "SHP",
+            "url": "countries_shp.zip",
+            "title": "Country Borders",
+            "renderMode": "image"
+          }
+        }
       }
     }
+  },
+  "jenkins": {
+    "country-borders": true
   }
 }
