@@ -34,7 +34,7 @@
             "animate": false,
             "load": true,
             "type": "SHP",
-            "url": "countries_shp.zip",
+            "url": "ne_10m_admin_0_countries.zip",
             "title": "Country Borders",
             "renderMode": "image"
           }
@@ -43,6 +43,10 @@
     }
   },
   "jenkins": {
-    "country-borders": true
+    "country-borders": {
+      "method": "cp",
+      "fileId": "country-borders-ne-10m",
+      "fileName": "ne_10m_admin_0_countries.zip"
+    }
   }
 }
