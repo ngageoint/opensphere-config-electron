@@ -6,24 +6,6 @@
     "certUrls": [],
     "fileUrls": true,
     "mixedContent": true,
-    "proxy": "__delete__",
-    "providers": {
-      "basemap": {
-        "maps": {
-          "streetmap": {
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
-          },
-          "streetmap-4326": {
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/ESRI_StreetMap_World_2D/MapServer/tile/{z}/{y}/{x}"
-          },
-          "worldimagery": {
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          },
-          "worldimagery-4326": {
-            "url": "https://wi.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          }
-        }
-      }
-    }
+    "proxy": "__delete__"
   }
 }
