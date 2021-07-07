@@ -5,12 +5,23 @@
   "build": {
     "type": "config",
     "config": "settings.json",
-    "priority": 100000
+    "priority": 100000,
+    "electron": {
+      "packages": [
+        "electron",
+        "electron-builder"
+      ]
+    }
   },
   "repository": "https://github.com/ngageoint/opensphere-config-electron",
   "keywords": [
     "OpenSphere",
     "Electron"
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "electron": "13.1.6",
+    "electron-builder": "22.11.8",
+    "opensphere": "0.0.0-development"
+  }
 }
