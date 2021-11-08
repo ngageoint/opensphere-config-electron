@@ -20,8 +20,8 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "electron": "13.5.1",
-    "electron-builder": "22.11.8",
+    "electron": "15.3.0",
+    "electron-builder": "22.13.1",
     "opensphere": "0.0.0-development"
   }
 }
