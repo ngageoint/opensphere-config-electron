@@ -6,6 +6,9 @@
     "certUrls": [],
     "fileUrls": true,
     "mixedContent": true,
-    "proxy": "__delete__"
+    "proxy": "__delete__",
+    "electron": {
+      "configHelpUrl": "https://opensphere.readthedocs.io/en/latest/guides/settings_guide.html#settings"
+    }
   }
 }
